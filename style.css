@@ -37,11 +37,17 @@ header input {
     font-weight: bolder;
     border-radius: 5px;
     font-family: 'Arita-buri-SemiBold';
+    transition: 0.2s ease all;
+}
+
+img {
+    border: 0;
 }
 
 header input:hover {
     background-color: white;
     color: black;
+    transition: 0.2s ease all;
 }
 
 
@@ -52,20 +58,30 @@ section {
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
+
 }
 
 #box {
-    text-align: center;
-    width: 480px;
-    padding: 20px 40px;
+    width: 950px;
     background-color: white;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#box ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#box ul li {
+    margin: 10px 0px;
 }
 
 section img {
     width: 480px;
     height: 700px;
-    background: url(./img/Shinkai_Makoto.png);
-    background-repeat: no-repeat;
+    background: url(https://drive.google.com/uc?export=download&id=16UX0RBVQSQxcIupM-bxzcgNQvwrUQ2pP);
 }
 
 .background {
@@ -80,9 +96,27 @@ video {
     width: 100%;
     position: absolute;
     top: 0;
-    filter: blur(6px);
+    filter: blur(8px);
 }
 
 #box h1 {
     margin-top: 20px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    margin-left: 30px;
+    width: 410px;
+}
+
+#movie_name, h1, #movie_release, #movie_genre, .content {
+    margin-bottom: 25px;
+}
+
+.content #content {
+    font-size: 20px;
+    font-weight: 900;
 }
