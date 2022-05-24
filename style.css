@@ -11,6 +11,7 @@
 }
 
 body {
+    font-family: 'Arita-buri-SemiBold';
     position: relative;
     height: 100vh;
     background-color: black;
@@ -35,6 +36,7 @@ header input {
     font-size: 20px;
     font-weight: bolder;
     border-radius: 5px;
+    font-family: 'Arita-buri-SemiBold';
 }
 
 header input:hover {
