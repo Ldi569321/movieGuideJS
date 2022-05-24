@@ -22,7 +22,7 @@ const The_Garden_of_Words = {
         document.getElementById("movie_name").innerText = The_Garden_of_Words.name;
         document.getElementById("movie_release").innerText = The_Garden_of_Words.release;
         document.getElementById("movie_genre").innerText = The_Garden_of_Words.genre;
-        movie_video.src = 'https://cdn.pixabay.com/video/2022/05/24/117930.mp4';
+        movie_video.src = './video/The_Garden_of_Words.mp4';
         movie_video.load();
         movie_video.play();
     },
@@ -38,7 +38,7 @@ const Your_name = {
         document.getElementById("movie_name").innerText = Your_name.name;
         document.getElementById("movie_release").innerText = Your_name.release;
         document.getElementById("movie_genre").innerText = Your_name.genre;
-        movie_video.src = 'https://cdn.pixabay.com/video/2022/05/24/117928.mp4';
+        movie_video.src = './video/Your_name.mp4';
         movie_video.load();
         movie_video.play();
     },
@@ -53,7 +53,7 @@ const Weathering_With_You = {
         document.getElementById("movie_name").innerText = Weathering_With_You.name;
         document.getElementById("movie_release").innerText = Weathering_With_You.release;
         document.getElementById("movie_genre").innerText = Weathering_With_You.genre;
-        movie_video.src = 'https://cdn.pixabay.com/video/2022/05/24/117929.mp4';
+        movie_video.src = './video/Weathering_With_You.mp4';
         movie_video.load();
         movie_video.play();
     },
@@ -69,7 +69,7 @@ const Suzumes_Door_Locking = {
         document.getElementById("movie_name").innerText = Suzumes_Door_Locking.name;
         document.getElementById("movie_release").innerText = Suzumes_Door_Locking.release;
         document.getElementById("movie_genre").innerText = Suzumes_Door_Locking.genre;
-        movie_video.src = 'https://cdn.pixabay.com/video/2022/05/24/117918.mp4';
+        movie_video.src = './video/Suzumes_Door_Locking.mp4';
         movie_video.load();
         movie_video.play();
     },
