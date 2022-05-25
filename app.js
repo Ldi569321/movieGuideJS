@@ -9,7 +9,7 @@ const Shinkai_Makoto = {
     brith: '1973년생',
     country: '국적: 일본',
     information: function () {
-        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Shinkai_Makoto.png)";
+        document.getElementById("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Shinkai_Makoto.png)";
         document.getElementById("movie_name").innerText = Shinkai_Makoto.name;
         document.getElementById("movie_release").innerText = Shinkai_Makoto.brith;
         document.getElementById("movie_genre").innerText = Shinkai_Makoto.country;
