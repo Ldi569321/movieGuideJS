@@ -23,9 +23,9 @@ const The_Garden_of_Words = {
     release: 2013,
     genre: '애니메이션, 로맨스',
     information: function () {
-        document.querySelector("img").style.background = "rgb(95, 170, 87)";
-        document.querySelector("img").style.background = "linear-gradient(90deg, rgba(95, 170, 87, 1) 0%, rgba(28, 52, 56, 1) 100%)";
-        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/The_Garden_of_Words.jpg)";
+        document.getElementById("img").style.background = "rgb(95, 170, 87)";
+        document.getElementById("img").style.background = "linear-gradient(90deg, rgba(95, 170, 87, 1) 0%, rgba(28, 52, 56, 1) 100%)";
+        document.getElementById("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/The_Garden_of_Words.jpg)";
         document.getElementById("movie_name").innerText = The_Garden_of_Words.name;
         document.getElementById("movie_release").innerText = The_Garden_of_Words.release;
         document.getElementById("movie_genre").innerText = The_Garden_of_Words.genre;
@@ -44,7 +44,7 @@ const Your_name = {
     release: 2017,
     genre: '애니메이션, 로맨스, 판타지, 재난',
     information: function () {
-        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Your_name.jpg)";
+        document.getElementById("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Your_name.jpg)";
         document.getElementById("movie_name").innerText = Your_name.name;
         document.getElementById("movie_release").innerText = Your_name.release;
         document.getElementById("movie_genre").innerText = Your_name.genre;
@@ -63,7 +63,7 @@ const Weathering_With_You = {
     release: 2019,
     genre: '애니메이션, 로맨스, 판타지, 재난, 드라마, 세카이계',
     information: function () {
-        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Weathering_With_You.jpg)";
+        document.getElementById("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Weathering_With_You.jpg)";
         document.getElementById("movie_name").innerText = Weathering_With_You.name;
         document.getElementById("movie_release").innerText = Weathering_With_You.release;
         document.getElementById("movie_genre").innerText = Weathering_With_You.genre;
@@ -83,7 +83,7 @@ const Suzumes_Door_Locking = {
     release: 2022,
     genre: '애니메이션, 액션, 판타지, 포스트 아포칼립스',
     information: function () {
-        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Suzumes_Door_Locking.jpg)";
+        document.getElementById("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Suzumes_Door_Locking.jpg)";
         document.getElementById("movie_name").innerText = Suzumes_Door_Locking.name;
         document.getElementById("movie_release").innerText = Suzumes_Door_Locking.release;
         document.getElementById("movie_genre").innerText = Suzumes_Door_Locking.genre;
