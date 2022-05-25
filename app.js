@@ -83,7 +83,7 @@ const Suzumes_Door_Locking = {
     release: 2022,
     genre: '애니메이션, 액션, 판타지, 포스트 아포칼립스',
     information: function () {
-        document.querySelector("img").style.background = "urlhttps://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Suzumes_Door_Locking.jpg)";
+        document.querySelector("img").style.background = "url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Suzumes_Door_Locking.jpg)";
         document.getElementById("movie_name").innerText = Suzumes_Door_Locking.name;
         document.getElementById("movie_release").innerText = Suzumes_Door_Locking.release;
         document.getElementById("movie_genre").innerText = Suzumes_Door_Locking.genre;
