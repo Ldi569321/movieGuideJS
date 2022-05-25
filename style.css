@@ -78,10 +78,11 @@ section {
     margin: 10px 0px;
 }
 
-section img {
+#img {
     width: 480px;
     height: 700px;
-    background: url(https://drive.google.com/uc?export=download&id=16UX0RBVQSQxcIupM-bxzcgNQvwrUQ2pP);
+    background: url(https://movieguidevideo.s3.ap-northeast-2.amazonaws.com/Shinkai_Makoto.png);
+    border: 0;
 }
 
 .background {
