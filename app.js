@@ -1,6 +1,8 @@
 const btnClick = document.querySelectorAll("input");
 const movie_video = document.getElementById("back_movie");
-const movieArray = [Shinkai_Makoto, The_Garden_of_Words, Your_name, Weathering_With_You, Suzumes_Door_Locking];
+
+
+
 
 const Shinkai_Makoto = {
     name: '신카이 마코토',
@@ -95,7 +97,8 @@ const Suzumes_Door_Locking = {
     },
 };
 
-
-btnClick.forEach((titleClick, i) => {
-    titleClick.addEventListener("click", movieArray[i].information);
-})
+btnClick[0].addEventListener("click", Shinkai_Makoto.information);
+btnClick[1].addEventListener("click", The_Garden_of_Words.information);
+btnClick[2].addEventListener("click", Your_name.information);
+btnClick[3].addEventListener("click", Weathering_With_You.information);
+btnClick[4].addEventListener("click", Suzumes_Door_Locking.information);
